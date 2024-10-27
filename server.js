@@ -12,7 +12,7 @@ import applicationRoutes from './routes/applicationRoutes.js'
 env.config()
 dbconnect()
 
-app.use((cors()))
+app.use(cors())
 app.use(express.json())
 
 
